@@ -1,0 +1,29 @@
+Proje 2 Kodluyoruz PatikaDev
+[16,21,11,8,12,22] -> Merge Sort
+
+Find the middle point to divide the array into two halves and divide all points until one piece array
+
+
+            16 - 21 - 11 - 8 - 12 - 22
+            
+       16 - 21 - 11            8 - 12  - 22
+       
+   16 - 21    11                    8     12 - 22
+   
+16    21    11                        8   12    22  
+
+
+After division , combine arrays with additional elements and continue the process until getting sorted array
+
+16    21    11                        8   12    22  
+ 
+    16 - 21    11                 8     12 - 22
+    
+           16 - 21 - 11        8 - 12  - 22
+           
+              16 - 21 - 11 - 8 - 12 - 22
+
+
+    
+    Big-O notation 
+    O(n*log(n))
